@@ -14,8 +14,8 @@ parser.add_argument("-c",help="Check how many calls left",action="store_true")
 args=parser.parse_args()
 
 
-hunter = PyHunter('b2052e9761534c20476af9ead613ab66de90b615')
-results = hunter.domain_search('rigidbits.com')
+hunter = PyHunter('CHANGE TO YOUR API KEY FROM HUNTER.IO')
+results = hunter.domain_search('YOURDOMAINNAME.com')
 
 
 if (args.fe):
