@@ -7,7 +7,8 @@ To do:
 3) Change code for your own API key from www.hunter.io
 4) Change Line 18 for your domain
 
-Use -fe to provide a text file with domains. Must be in format www.domainname.com
+Use --help for optional switches.
+Most common: Use -fe to provide a text file with domains. Must be in format www.domainname.com
 
 Output will be raw text (output.txt).
 
